@@ -14,7 +14,7 @@
 
 AERAS (AI-Powered Emergency Response System) is a cutting-edge web application designed to revolutionize emergency response and community safety. Built with modern web technologies, it provides real-time emergency monitoring, AI-powered threat assessment, and community-driven incident reporting.
 
-### ✨ Key Features
+### Key Features
 
 - **🗺️ Interactive Emergency Map** - Real-time visualization of emergencies with severity indicators
 - **🤖 AI-Powered Classification** - Intelligent emergency categorization and threat assessment
@@ -24,7 +24,7 @@ AERAS (AI-Powered Emergency Response System) is a cutting-edge web application d
 - **🎯 Geolocation Support** - Location-aware emergency detection and reporting
 - **🔒 Responsive Design** - Optimized for desktop, tablet, and mobile devices
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend Framework**: React 18 with TypeScript
 - **Styling**: Tailwind CSS for modern, responsive design
@@ -34,7 +34,7 @@ AERAS (AI-Powered Emergency Response System) is a cutting-edge web application d
 - **Date Handling**: date-fns for time formatting
 - **Code Quality**: ESLint with TypeScript support
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -69,7 +69,7 @@ npm run build
 npm run preview
 ```
 
-## 📱 Application Features
+## Application Features
 
 ### Dashboard
 - **Real-time Statistics**: Active emergencies, resolution rates, AI accuracy metrics
@@ -121,7 +121,7 @@ src/
 └── index.css                        # Global styles with Tailwind
 ```
 
-## 🎨 Design System
+## Design System
 
 ### Color Palette
 - **Primary**: Red tones for emergency contexts
@@ -140,7 +140,7 @@ src/
 - Generous whitespace for clarity
 - Responsive breakpoints for all devices
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 Create a `.env` file in the root directory:
@@ -158,7 +158,7 @@ VITE_API_BASE_URL=https://api.aeras.com
 - **Styling**: Customize `tailwind.config.js`
 - **Map Settings**: Configure in `src/components/Map/EmergencyMap.tsx`
 
-## 📊 Performance Features
+## Performance Features
 
 - **Code Splitting**: Automatic route-based splitting
 - **Lazy Loading**: Components loaded on demand
@@ -166,7 +166,7 @@ VITE_API_BASE_URL=https://api.aeras.com
 - **Responsive Design**: Mobile-first approach
 - **Fast Refresh**: Instant development feedback
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run linting
@@ -179,7 +179,7 @@ npx tsc --noEmit
 npm run build
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Netlify (Recommended)
 1. Connect your GitHub repository to Netlify
@@ -199,7 +199,7 @@ npm run build
 # Upload dist/ folder to your hosting provider
 ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please follow these steps:
 
@@ -216,7 +216,7 @@ We welcome contributions! Please follow these steps:
 - Write clear, descriptive commit messages
 - Test across different devices and browsers
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -228,14 +228,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Lucide** for the beautiful icon set
 - **Vite** for the lightning-fast build tool
 
-## 📞 Support
+## Support
 
 For support, questions, or feature requests:
 - Create an issue on GitHub
 - Email: support@aeras.com
 - Documentation: [docs.aeras.com](https://docs.aeras.com)
 
-## 🔮 Future Roadmap
+## Future Roadmap
 
 - [ ] Real-time WebSocket integration
 - [ ] Push notification support
